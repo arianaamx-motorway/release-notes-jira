@@ -8768,7 +8768,7 @@ try {
   const githubToken = core.getInput('github_token')
   console.log(`Tag name: ${tagName}`);
   console.log(`Release name: ${releaseName}`)
-  console.log(`Github token`)
+  console.log(`Github token:  ${githubToken}`)
 
   // Get the JSON webhook payload for the event that triggered the workflow
 //   const payload = JSON.stringify(github.context.payload, undefined, 2)
