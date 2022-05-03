@@ -1,10 +1,14 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Release notes with Jira tickets'
+description: 'Adds Jira tickets to release notes'
+author: 'Ariana Milasincic'
+
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  tag_name: # version tag
+    description: 'Version tag'
     required: true
-    default: 'World'
+  release_name: 
+    description: 'Title of release'
+    required: true
 outputs:
   time: # id of output
     description: 'The time we greeted you'

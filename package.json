@@ -1,0 +1,27 @@
+{
+  "name": "release-notes-jira",
+  "version": "1.0.0",
+  "description": "Release notes with integrated Jira tickets",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianaamx-motorway/release-notes-jira.git"
+  },
+  "keywords": [
+    "release",
+    "jira"
+  ],
+  "author": "arianaamx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arianaamx-motorway/release-notes-jira/issues"
+  },
+  "homepage": "https://github.com/arianaamx-motorway/release-notes-jira#readme",
+  "dependencies": {
+    "@actions/core": "^1.7.0",
+    "@actions/github": "^5.0.1"
+  }
+}
