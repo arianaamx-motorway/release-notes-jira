@@ -8765,8 +8765,10 @@ const github = __nccwpck_require__(4633);
 try {
   const tagName = core.getInput('tag_name');
   const releaseName= core.getInput('release_name')
+  const githubToken = core.getInput('github_token')
   console.log(`Tag name: ${tagName}`);
   console.log(`Release name: ${releaseName}`)
+  console.log(`Github token`)
 
   // Get the JSON webhook payload for the event that triggered the workflow
 //   const payload = JSON.stringify(github.context.payload, undefined, 2)

@@ -9,6 +9,9 @@ inputs:
   release_name: 
     description: 'Title of release'
     required: true
+  github_token:
+    description: 'Github Token'
+    required: false
 outputs:
   time: # id of output
     description: 'The time we greeted you'
