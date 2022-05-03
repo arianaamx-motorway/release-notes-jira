@@ -8770,7 +8770,6 @@ try {
 
   const octokit = github.getOctokit(githubToken)
 
-  console.log(bodyFileContent)
   console.log(`Tag name: ${tagName}`);
   console.log(`Release name: ${releaseName}`)
   console.log(`Github token:  ${githubToken}`)
