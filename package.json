@@ -4,7 +4,8 @@
   "description": "Release notes with integrated Jira tickets",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "ncc build index.js --license licenses.txt"
   },
   "repository": {
     "type": "git",
